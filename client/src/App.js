@@ -1,9 +1,9 @@
 import './App.css';
 import { createTheme, ThemeProvider } from '@mui/material';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LandingPage from './components/landingPage/LandingPage';
-import SigninPage from './components/authPages/userSignin/SigninPage';
-import SignupPage from './components/authPages/userSignup/SignupPage';
+import LandingPage from './pages/LandingPage';
+import SigninPage from './pages/SigninPage';
+import SignupPage from './pages/SignupPage';
 
 const theme = createTheme({
   palette:{
